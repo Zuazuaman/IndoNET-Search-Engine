@@ -1,7 +1,8 @@
 /* Reset some default styles */
-body, h1, h2, h3, p {
+body, h1, h2, h3, p, a {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 /* Basic styling for header */
@@ -50,21 +51,34 @@ header {
   padding: 1rem;
   margin-bottom: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+/* Style the result title link */
+.search-result h3 a {
+  color: #333;
+  font-size: 1.2rem;
 }
 
 /* Style the domain text */
 .domain {
   color: #666;
   font-size: 0.8rem;
-  margin-bottom: 0.5rem;
+  margin: 0.2rem 0;
+}
+
+/* Style the result snippet */
+.search-result p {
+  color: #333;
+  margin: 0.5rem 0;
 }
 
 /* Style the result thumbnail */
 .result-thumbnail {
-  margin-left: auto;
+  margin-top: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .result-thumbnail img {

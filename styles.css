@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Center the search form */
+  .search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+  
+  /* Style the search input and button */
+  #searchQuery {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #searchButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* Style the search results */
+  .search-results {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Style each search result */
+  .search-results div {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the search result title link */
+  .search-results h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Style the snippet text */
+  .search-results p {
+    color: #666;
+  }
+  
